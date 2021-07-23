@@ -10,7 +10,7 @@ namespace SimpleAPI.Test
         public void Test1()
         {
             string returnValue = HomeController.Get();
-            Assert.Equal("Les Jack7son", returnValue);
+            Assert.Equal("Les Jackson", returnValue);
         }
     }
 }
